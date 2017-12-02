@@ -2,11 +2,9 @@
 #include<stdbool.h>
 #include<string.h>
 
-/*
-1.アルファベット順（a -> z）
-2.長さ（apple -> apples）
-3.大文字小文字（LINE -> LINe -> LInE -> LIne -> ・・・ -> linE -> line）
-*/
+//1.アルファベット順（a -> z）
+//2.長さ（apple -> apples）
+//3.大文字小文字（LINE -> LINe -> LInE -> LIne -> ・・・ -> linE -> line）
 int Mystrcmp(char *word, char *str){
 	int i,judge;
 	bool LFlag_w = false,LFlag_s = false;
